@@ -7,7 +7,7 @@ const AdminLayout: React.FC = (): JSX.Element => {
     return (
         <div>
             <Header />
-            Admin Dashboard
+            ---- Admin Layout ----
             <Outlet />
             <Footer />
         </div>

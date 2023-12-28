@@ -1,11 +1,14 @@
-function App() {
+import useRouteElements from "./routes/useRouteElements";
 
+function App() {
+  
+  const routeElements = useRouteElements();
   return (
     <>
-      Capstone BC53 - Jira
+      {routeElements}
     </>
   )
-  
+
 }
 
 export default App
