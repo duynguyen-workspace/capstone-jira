@@ -1,4 +1,3 @@
-
 function App() {
 
   return (
@@ -6,6 +5,7 @@ function App() {
       Capstone BC53 - Jira
     </>
   )
+  
 }
 
 export default App
